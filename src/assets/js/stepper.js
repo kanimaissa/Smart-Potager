@@ -1,26 +1,4 @@
-<!doctype html>
-<html lang="en">
-<head>
-  <meta charset="utf-8">
-  <title>AngularPushNotification</title>
-  <base href="/">
-
-  <link rel="icon" type="image/x-icon" href="favicon.ico">
-  <link rel="manifest" href="/manifest.json">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="A stepper plugin for Bootstrap 4.">
-  <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
-  <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
-  <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
-  <link rel="stylesheet" href="../src/assets/js/stepper.js">
-  <!------ Include the above in your HEAD tag ---------->
-  
-</head>
-<body>
-  
-  <app-root></app-root>
- <script>
- $(document).ready(function () {
+$(document).ready(function () {
     var navListItems = $('div.setup-panel div a'),
             allWells = $('.setup-content'),
             allNextBtn = $('.nextBtn');
@@ -62,8 +40,3 @@
   
     $('div.setup-panel div a.btn-primary').trigger('click');
   });
- 
- 
- </script>
-</body>
-</html>
